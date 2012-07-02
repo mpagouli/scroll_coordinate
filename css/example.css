@@ -1,0 +1,86 @@
+div.yellow{
+    background-color: yellow;
+    background-image: -webkit-linear-gradient(0, rgba(210, 210, 210, .5) 50%,  transparent 50%);
+    background-image: -moz-linear-gradient(0, rgba(210, 210, 210, .5) 50%, transparent 50%);
+    background-image: -ms-linear-gradient(0, rgba(210, 210, 210, .5) 50%, transparent 50%);
+    background-image: -o-linear-gradient(0, rgba(210, 210, 210, .5) 50%,  transparent 50%);
+    
+    width:1000px;
+    height:1000px;
+    background-size:80px;
+   
+    
+   
+}
+
+div.yellow_container{
+    position:relative;
+    overflow:hidden;    
+    width:300px;
+    height:300px;
+    float:left;
+    
+    border:1px solid;
+}
+
+
+
+div.red{
+    background-color: red;
+    background-image: -webkit-linear-gradient(transparent 50%, rgba(230, 230, 230, .5) 50%, rgba(230, 230, 230, .5));
+    background-image: -moz-linear-gradient(transparent 50%, rgba(230, 230, 230, .5) 50%, rgba(230, 230, 230, .5));
+    background-image: -ms-linear-gradient(transparent 50%, rgba(230, 230, 230, .5) 50%, rgba(230, 230, 230, .5));
+    background-image: -o-linear-gradient(transparent 50%, rgba(230, 230, 230, .5) 50%, rgba(230, 230, 230, .5));
+    
+    width:40px;
+    height:1000px;
+    background-size: 80px 80px;
+    
+   
+}
+
+div.red_container{
+   
+    position:relative;
+    overflow:hidden;  
+    width:40px;
+    height:300px;
+     float:left;
+   
+    border-top:1px solid;
+    border-bottom:1px solid;
+    border-left:1px solid;
+}
+
+
+div.green{
+ 
+    background-color: green;
+    background-image: -webkit-linear-gradient(0, transparent 50%, rgba(230, 230, 230, .5) 50%);
+    background-image: -moz-linear-gradient(0, transparent 50%, rgba(230, 230, 230, .5) 50%);
+    background-image: -ms-linear-gradient(0, transparent 50%, rgba(230, 230, 230, .5) 50%);
+    background-image: -o-linear-gradient(0, transparent 50%, rgba(230, 230, 230, .5) 50%);
+    
+    width:1000px;
+    height:40px;
+    background-size:80px;
+    
+   position:absolute;
+    top:0px;
+    left:0px;
+}
+
+div.green_container{
+    position:relative;
+    overflow:hidden;  
+    width:300px;
+    height:40px;
+   
+    border-top:1px solid;
+    border-left:1px solid;
+    border-right:1px solid;
+
+}
+
+
+​
